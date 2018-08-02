@@ -1,26 +1,28 @@
 package se.ericsson.store;
 
+import org.jboss.arquillian.drone.api.annotation.Drone;
 import org.jboss.arquillian.junit.Arquillian;
-import org.jboss.arquillian.test.api.ArquillianResource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.wildfly.swarm.arquillian.DefaultDeployment;
+import org.openqa.selenium.WebDriver;
 
-import javax.activation.DataSource;
-import javax.naming.InitialContext;
-
-import static org.junit.Assert.assertNotNull;
+import static org.fest.assertions.Assertions.assertThat;
 
 @RunWith(Arquillian.class)
-@DefaultDeployment(type = DefaultDeployment.Type.JAR)
-public class ContainerTest {
+public class ContainerTest extends AbstractIntegrationTest {
 
-    @ArquillianResource
-    private InitialContext context;
+    @Drone
+    private WebDriver browser;
 
     @Test
     public void testDataSourceIsBound() throws Exception {
-        DataSource ds = (DataSource) context.lookup("java:jboss/datasources/storeDS");
-        assertNotNull(ds);
+
+        Log log = getStdOutLog();
+
+        assertThatLog(log).hasLineContaining("WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]");
+
+
+        browser.navigate().to("http://localhost:8080/");
+        assertThat(browser.getPageSource()).contains("Howdy using driver: H2 JDBC Driver");
     }
 }

@@ -305,5 +305,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:2.53.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.netty:netty:3.5.7.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-leg-rc:2.53.1" level="project" />
+    <orderEntry type="library" name="Maven: org.easytesting:fest-assert:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.easytesting:fest-util:1.1.6" level="project" />
   </component>
 </module>
