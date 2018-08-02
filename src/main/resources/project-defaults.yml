@@ -1,0 +1,13 @@
+swarm:
+  datasources:
+    data-sources:
+      storeDS:
+        driver-name: postgres
+        connection-url: jdbc:postgresql://127.0.0.1:5432/store
+        user-name: admin
+        password: admin@123
+    jdbc-drivers:
+      postgres:
+        driver-class-name: org.postgresql.Driver
+        xa-datasource-name: org.postgresql.xa.PGXADataSource
+        driver-module-name: org.postgresql
