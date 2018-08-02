@@ -6,8 +6,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.wildfly.swarm.arquillian.DefaultDeployment;
 
+import javax.activation.DataSource;
 import javax.naming.InitialContext;
-import javax.sql.DataSource;
 
 import static org.junit.Assert.assertNotNull;
 
