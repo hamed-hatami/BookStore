@@ -11,10 +11,10 @@ pipeline {
             git url:'https://github.com/javaee5/BookStore.git'
           }
         }
-        stage('Build') {
+    stage('Build') {
             steps {
                 sh 'mvn package'
             }
         }
-    }
+
 }

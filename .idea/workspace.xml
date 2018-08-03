@@ -58,10 +58,10 @@
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -90,7 +90,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile" value="48" />
+          <entry key="Jenkinsfile" value="53" />
           <entry key="html" value="144" />
           <entry key="java" value="510" />
           <entry key="txt" value="20" />
@@ -102,7 +102,7 @@
         <counts>
           <entry key="HTML" value="144" />
           <entry key="JAVA" value="510" />
-          <entry key="Jenkins file" value="48" />
+          <entry key="Jenkins file" value="53" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="347" />
           <entry key="YAML" value="23" />
@@ -115,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="195">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -322,6 +322,7 @@
       <workItem from="1533312051646" duration="995000" />
       <workItem from="1533313370612" duration="113000" />
       <workItem from="1533313505830" duration="1175000" />
+      <workItem from="1533314890064" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="first release">
       <created>1533217295486</created>
@@ -367,7 +368,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20796000" />
+    <option name="totallyTimeSpent" value="20834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
@@ -554,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
