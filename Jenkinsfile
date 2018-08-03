@@ -1,13 +1,14 @@
 pipeline {
+
     agent any
+
     tools {
-            maven 'Maven 3.5.0'
-            jdk 'jdk8'
-        }
-    stages {
-        stage ('Checkout') {
+        maven 'apache-maven-3.5.0'
+    }
+
+    stage ('Checkout') {
           steps {
-            git 'https://github.com/javaee5/BookStore.git'
+            git url:'https://github.com/javaee5/BookStore.git'
           }
         }
         stage('Build') {
